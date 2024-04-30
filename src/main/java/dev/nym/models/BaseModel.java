@@ -1,2 +1,9 @@
-package dev.nym.models;public class BaseModel {
+package dev.nym.models;
+
+import java.util.Date;
+
+public class BaseModel {
+    private Long id;
+    private Date createdAt;
+    private Date updatedAt;
 }

@@ -1,2 +1,6 @@
-package dev.nym.dtos;public class ResponseStatus {
+package dev.nym.dtos;
+
+public enum ResponseStatus {
+    SUCCESS,
+    FAILURE
 }

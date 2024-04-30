@@ -1,2 +1,7 @@
-package dev.nym.models;public class PaymentStatus {
+package dev.nym.models;
+
+public enum PaymentStatus {
+    PENDING,
+    CONFIRMED,
+    REFUNDED
 }

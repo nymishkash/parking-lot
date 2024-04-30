@@ -1,2 +1,6 @@
-package dev.nym.models;public class ParkingSpotStatus {
+package dev.nym.models;
+
+public enum ParkingSpotStatus {
+    EMPTY,
+    FILLED
 }

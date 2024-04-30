@@ -1,2 +1,6 @@
-package dev.nym.models;public class ParkingFloorStatus {
+package dev.nym.models;
+
+public enum ParkingFloorStatus {
+    OPEN,
+    CLOSED
 }

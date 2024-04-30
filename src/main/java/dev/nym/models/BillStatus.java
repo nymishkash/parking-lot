@@ -1,2 +1,6 @@
-package dev.nym.models;public class BillStatus {
+package dev.nym.models;
+
+public enum BillStatus {
+    PENDING,
+    PAID
 }

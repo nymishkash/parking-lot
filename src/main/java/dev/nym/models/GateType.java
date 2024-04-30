@@ -1,2 +1,6 @@
-package dev.nym.models;public class GateType {
+package dev.nym.models;
+
+public enum GateType {
+    ENTRY,
+    EXIT
 }

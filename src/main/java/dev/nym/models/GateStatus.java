@@ -1,2 +1,6 @@
-package dev.nym.models;public class GateStatus {
+package dev.nym.models;
+
+public enum GateStatus {
+    OPEN,
+    CLOSED
 }

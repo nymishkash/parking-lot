@@ -1,2 +1,8 @@
-package dev.nym.models;public class PaymentMode {
+package dev.nym.models;
+
+public enum PaymentMode {
+    CASH,
+    UPI,
+    CREDIT_CARD,
+    DEBIT_CARD,
 }
